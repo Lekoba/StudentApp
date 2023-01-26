@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"First serenity test","This is a test with error","ERROR","2023-01-24T14:39:32.219+02:00[Africa/Harare]","0.0","0.36"
+"Serenity id info","This is a test with error","ERROR","2023-01-24T14:39:32.276+02:00[Africa/Harare]","0.0","0.36"
+"Serenity id info","This isa filing","FAILURE","2023-01-24T14:39:32.928+02:00[Africa/Harare]","0.0","0.34"
+"First serenity test","This isa filing","FAILURE","2023-01-24T14:39:33.255+02:00[Africa/Harare]","0.0","0.39"

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="48.319" tests="100" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2022.3.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\peter.lekoba\Documents\studentAppTest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ZA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\peter.lekoba\Documents\studentAppTest"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PETER~1.LEK\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\peter.lekoba\AppData\Local\Android\Sdk\platform-tools;C:\Users\peter.lekoba\AppData\Local\Android\Sdk\tools;C:\Program Files\Java\jdk1.8.0_211\;C:\Users\peter.lekoba\AppData\Local\Android\Sdk\emulator;C:\Users\peter.lekoba\AppData\Local\Android\Sdk\tools\bin;C:\apache-maven-3.8.7\bin;C:\Program Files (x86)\nodejs\node_modules\npm\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\apache-maven-3.8.7\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\peter.lekoba\AppData\Local\Microsoft\WindowsApps;;C:\Users\peter.lekoba\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\peter.lekoba\.dotnet\tools;C:\Users\peter.lekoba\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.1\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\peter.lekoba"/>
+    <property name="user.timezone" value="Africa/Harare"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="peter.lekoba"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.1 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="createMultipleStudents[42]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.3"/>
+  <testcase name="createMultipleStudents[26]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.3"/>
+  <testcase name="createMultipleStudents[0]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.3"/>
+  <testcase name="createMultipleStudents[15]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.3"/>
+  <testcase name="createMultipleStudents[32]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.3"/>
+  <testcase name="createMultipleStudents[4]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.301"/>
+  <testcase name="createMultipleStudents[25]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="1.042"/>
+  <testcase name="createMultipleStudents[30]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.345"/>
+  <testcase name="createMultipleStudents[17]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.346"/>
+  <testcase name="createMultipleStudents[36]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[24]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[44]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[45]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.351"/>
+  <testcase name="createMultipleStudents[18]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.689"/>
+  <testcase name="createMultipleStudents[40]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.689"/>
+  <testcase name="createMultipleStudents[10]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.689"/>
+  <testcase name="createMultipleStudents[12]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.689"/>
+  <testcase name="createMultipleStudents[13]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.37"/>
+  <testcase name="createMultipleStudents[28]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.357"/>
+  <testcase name="createMultipleStudents[2]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.358"/>
+  <testcase name="createMultipleStudents[14]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.359"/>
+  <testcase name="createMultipleStudents[35]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.359"/>
+  <testcase name="createMultipleStudents[1]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.359"/>
+  <testcase name="createMultipleStudents[19]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.359"/>
+  <testcase name="createMultipleStudents[6]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.359"/>
+  <testcase name="createMultipleStudents[47]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.363"/>
+  <testcase name="createMultipleStudents[20]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.363"/>
+  <testcase name="createMultipleStudents[22]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.363"/>
+  <testcase name="createMultipleStudents[3]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.364"/>
+  <testcase name="createMultipleStudents[37]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.364"/>
+  <testcase name="createMultipleStudents[11]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="1.765"/>
+  <testcase name="createMultipleStudents[38]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="1.765"/>
+  <testcase name="createMultipleStudents[43]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[23]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[46]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[27]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.352"/>
+  <testcase name="createMultipleStudents[34]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.353"/>
+  <testcase name="createMultipleStudents[7]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.353"/>
+  <testcase name="createMultipleStudents[5]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.341"/>
+  <testcase name="createMultipleStudents[8]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.361"/>
+  <testcase name="createMultipleStudents[33]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.349"/>
+  <testcase name="createMultipleStudents[16]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.35"/>
+  <testcase name="createMultipleStudents[21]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.704"/>
+  <testcase name="createMultipleStudents[39]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="1.055"/>
+  <testcase name="createMultipleStudents[55]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="1.056"/>
+  <testcase name="createMultipleStudents[41]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="1.057"/>
+  <testcase name="createMultipleStudents[9]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.696"/>
+  <testcase name="createMultipleStudents[31]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.343"/>
+  <testcase name="createMultipleStudents[50]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.344"/>
+  <testcase name="createMultipleStudents[63]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.343"/>
+  <testcase name="createMultipleStudents[60]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[58]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[49]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleStudents[48]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.369"/>
+  <testcase name="createMultipleStudents[57]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.369"/>
+  <testcase name="createMultipleStudents[53]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.371"/>
+  <testcase name="createMultipleStudents[51]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleStudents[29]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[84]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[73]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleStudents[62]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.343"/>
+  <testcase name="createMultipleStudents[67]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.7"/>
+  <testcase name="createMultipleStudents[59]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[66]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="1.365"/>
+  <testcase name="createMultipleStudents[78]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="2.033"/>
+  <testcase name="createMultipleStudents[52]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.335"/>
+  <testcase name="createMultipleStudents[81]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.336"/>
+  <testcase name="createMultipleStudents[77]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[85]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.327"/>
+  <testcase name="createMultipleStudents[83]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.327"/>
+  <testcase name="createMultipleStudents[86]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.328"/>
+  <testcase name="createMultipleStudents[64]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.328"/>
+  <testcase name="createMultipleStudents[76]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[74]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[61]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[87]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleStudents[89]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleStudents[88]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.353"/>
+  <testcase name="createMultipleStudents[65]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.675"/>
+  <testcase name="createMultipleStudents[72]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.675"/>
+  <testcase name="createMultipleStudents[79]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.675"/>
+  <testcase name="createMultipleStudents[82]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="2.402"/>
+  <testcase name="createMultipleStudents[93]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="2.402"/>
+  <testcase name="createMultipleStudents[54]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[92]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[96]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleStudents[90]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleStudents[69]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.355"/>
+  <testcase name="createMultipleStudents[68]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.692"/>
+  <testcase name="createMultipleStudents[70]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[91]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0"/>
+  <testcase name="createMultipleStudents[80]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleStudents[75]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleStudents[56]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="0.344"/>
+  <testcase name="createMultipleStudents[99]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="1.369"/>
+  <testcase name="createMultipleStudents[95]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="1.37"/>
+  <testcase name="createMultipleStudents[94]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="1.37"/>
+  <testcase name="createMultipleStudents[98]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="1.72"/>
+  <testcase name="createMultipleStudents[71]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="1.721"/>
+  <testcase name="createMultipleStudents[97]" classname="com.studentapp.junit.studentInfo.CreateStudentDataDrivenTest" time="1.731"/>
+</testsuite>

@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Serenity id info","This is a skipped test","IGNORED","2023-01-24T14:39:24.628+02:00[Africa/Harare]","0.0","0.71"
+"Serenity id info","Get all student","SUCCESS","2023-01-24T14:39:26.063+02:00[Africa/Harare]","0.0","5.1"
+"Serenity id info","This is a pending test","PENDING","2023-01-24T14:39:31.161+02:00[Africa/Harare]","0.0","0.56"
+"Serenity id info","This is a manual test","PENDING","2023-01-24T14:39:31.721+02:00[Africa/Harare]","0.0","0.55"
+"Serenity id info","This is a test with error","ERROR","2023-01-24T14:39:32.276+02:00[Africa/Harare]","0.0","0.36"
+"Serenity id info","File does not exist","COMPROMISED","2023-01-24T14:39:32.637+02:00[Africa/Harare]","0.0","0.29"
+"Serenity id info","This isa filing","FAILURE","2023-01-24T14:39:32.928+02:00[Africa/Harare]","0.0","0.34"

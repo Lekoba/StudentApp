@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="com.studentapp.junit.studentInfo.SerenityIdInfo" skipped="4" tests="7" time="7.9" timestamp="2023-01-24 02:39:24"><testcase classname="com.studentapp.junit.studentInfo.SerenityIdInfo" name="This is a skipped test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentInfo.SerenityIdInfo" name="Get all student"/><testcase classname="com.studentapp.junit.studentInfo.SerenityIdInfo" name="This is a pending test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentInfo.SerenityIdInfo" name="This is a manual test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentInfo.SerenityIdInfo" name="This is a test with error"><error message="/ by zero" type="java.lang.ArithmeticException">/ by zero</error><system-err>/ by zero&#13;
+com.studentapp.junit.studentInfo.SerenityIdInfo.thisIsATestWithError(SerenityIdInfo.java:65)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentInfo.SerenityIdInfo" name="File does not exist"><compromised message="E:\file.txt (The system cannot find the path specified)" type="java.io.FileNotFoundException">E:\file.txt (The system cannot find the path specified)</compromised><system-err>E:\file.txt (The system cannot find the path specified)&#13;
+com.studentapp.junit.studentInfo.SerenityIdInfo.fileDoesNotExist(SerenityIdInfo.java:71)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentInfo.SerenityIdInfo" name="This isa filing"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studentapp.junit.studentInfo.SerenityIdInfo.thisIsaFiling(SerenityIdInfo.java:45)&#13;
+</system-err></testcase></testsuite>

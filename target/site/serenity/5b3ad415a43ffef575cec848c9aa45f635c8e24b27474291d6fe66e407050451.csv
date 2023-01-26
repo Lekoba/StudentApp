@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Student CRUD test","This test will create a new student","SUCCESS","2023-01-24T14:39:36.909+02:00[Africa/Harare]","0.0","1.44"
+"Student CRUD test","Verify if the student was added to the application","SUCCESS","2023-01-24T14:39:38.347+02:00[Africa/Harare]","0.0","0.81"
+"Student CRUD test","Update the user information and verify the updated information!","SUCCESS","2023-01-24T14:39:39.155+02:00[Africa/Harare]","0.0","0.52"
+"Student CRUD test","Delete the student and verify the student is deleted!","SUCCESS","2023-01-24T14:39:39.672+02:00[Africa/Harare]","0.0","0.51"
